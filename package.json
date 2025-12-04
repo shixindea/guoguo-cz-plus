@@ -1,0 +1,28 @@
+{
+  "name": "@shixinde/guoguo-cz-plus",
+  "version": "1.0.0",
+  "description": "袁果锅生态 - 用于git cz 提交规范 中文汉化 支持Emoji",
+  "main": "commitlint.config.js",
+  "files": [
+    "commitlint.config.js"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "npm version patch && npm publish"
+  },
+  "author": "袁果锅",
+  "license": "Isc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shixindea/guoguo-cz-plus"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "cz-git": "^1.11.0"
+  }
+}
